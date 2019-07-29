@@ -13,6 +13,7 @@ using namespace cv;
 
 int main(void)
 {
+
 	Mat img = imread("Autos.jpg");
 
 	VideoCapture v("Traffic.mp4");
